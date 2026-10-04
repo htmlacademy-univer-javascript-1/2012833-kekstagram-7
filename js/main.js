@@ -91,5 +91,5 @@ const createDescriptionsPhoto = () => {
   return descriptions;
 };
 
-// console.log(createDescriptionsPhoto());
+createDescriptionsPhoto();
 
