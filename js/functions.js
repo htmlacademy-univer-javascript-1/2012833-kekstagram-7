@@ -2,6 +2,8 @@
 
 const checkStringLength = (string, maxLength) => string.length <= maxLength;
 
+checkStringLength('Привет', 10); // true
+
 // console.log(checkStringLength('Привет', 10)); // true
 // console.log(checkStringLength('Привет', 5)); // false
 
@@ -15,6 +17,8 @@ function isPalindrome(string) {
   const reversedStr = cleanedStr.split('').reverse().join('');
   return cleanedStr === reversedStr;
 }
+
+isPalindrome('Лёша на полке клопа нашёл'); // true
 
 // console.log(isPalindrome('Лёша на полке клопа нашёл')); // true
 // console.log(isPalindrome('Привет')); // false
